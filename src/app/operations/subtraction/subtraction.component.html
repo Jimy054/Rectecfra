@@ -1,0 +1,71 @@
+<br />
+<mat-card class="card">
+  <mat-card-title class="title">Resta</mat-card-title>
+  <mat-card-subtitle>Substracción</mat-card-subtitle>
+  <br />
+  <mat-card-content>
+    <div class="description">
+      La resta o sustracción es la operación inversa de la suma y nos permite
+      calcular la diferencia entre dos números naturales, llamados minuendo y
+      sustraendo. Se denota mediante el símbolo -. La resta o sustracción es una
+      de las cuatro operaciones básicas de la aritmética que consiste en la
+      sustracción de dos o más elementos para llegar a un resultado final donde
+      el resultado final es el elemento original disminuido por el elemento que
+      se quiso restar.
+      <br />
+      <br />
+      La resta puede ser usado para números naturales, enteros, decimales,
+      fracciones, reales y complejos. La resta se compone por el minuendo que es
+      el elemento total que queremos sustraer, el sustraendo que es la cantidad
+      que queremos restar y la diferencia que es el resultado final de la resta.
+      <br />
+      <br />
+      <h2>Propiedades</h2>
+      Al igual que el resto de las operaciones matemáticas, la resta cuenta con
+      diversas propiedades que se enseña a aplicar en la escuela, y con el paso
+      del tiempo, las realizamos de manera automática.
+      <li>
+        Fundamental: Esta propiedad, explica a la inversa el proceso de la
+        resta; además de esto, se usa en casos de que tengamos una incógnita
+        dentro de la resta.
+      </li>
+      <li>
+        No interna: La propiedad no interna establece que, al restar dos números
+        naturales, el resultado no necesariamente debe ser un número natural.
+      </li>
+      <li>
+        No conmutativa En la resta el orden de los valores, es decir minuendo y
+        sustraendo, no puede ser alterada.
+      </li>
+      <li>
+        Diferencia nula: Esta propiedad nos indica que si el minuendo y el
+        sustraendo varían, ya sea aumentando disminuyendo proporcionalmente, la
+        diferencia se mantendrá.
+      </li>
+      <br />
+      <br />
+      <h3>Ejemplo:</h3>
+      <img src="/assets/Resta.png" alt="" srcset="" />
+      <br />
+      <br />
+      <h3>Ejercicio</h3>
+      <h4>20-10 =</h4>
+
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <input
+            matInput
+            type="number"
+            [(ngModel)]="value"
+            name="value"
+            placeholder="Resultado"
+          />
+        </mat-form-field>
+      </form>
+
+      <button id="add" mat-raised-button color="warn" (click)="validar()">
+        Evaluar
+      </button>
+    </div>
+  </mat-card-content>
+</mat-card>

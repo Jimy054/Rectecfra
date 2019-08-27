@@ -1,0 +1,67 @@
+.card {
+  margin-left: 20px;
+  width: 95%;
+  height: 200%;
+}
+
+.button {
+  margin-left: 20px;
+  float: right;
+}
+
+thead {
+  color: white;
+  background-color: rgb(85, 85, 85);
+}
+
+.trTable {
+  background-color: rgb(138, 138, 138, 0.13);
+}
+
+i {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.description {
+  margin-left: 30px;
+}
+
+.card1 {
+  max-width: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  max-height: 450px;
+  box-shadow: 6px 6px 6px 6px black;
+  display: inline-block;
+}
+
+.header-image-plus {
+  background-image: url("/assets/galileo.jpg");
+  background-size: cover;
+}
+
+.header-image-less {
+  background-image: url("/assets/isaac.jpg");
+  background-size: cover;
+}
+
+.header-image-per {
+  background-image: url("/assets/tesla.jpeg");
+  background-size: cover;
+}
+
+.header-image-divide {
+  background-image: url("/assets/aristoteles.jpg");
+  background-size: cover;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+  margin-left: 50px;
+}

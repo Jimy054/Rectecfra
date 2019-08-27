@@ -1,0 +1,86 @@
+<br />
+<mat-card class="card">
+  <mat-card-title class="title">Suma</mat-card-title>
+  <mat-card-subtitle>Adición</mat-card-subtitle>
+  <br />
+  <mat-card-content>
+    <div class="description">
+      Es todo lo relacionado a adición o agregación de cantidades o cosas. Por
+      lo general, se define como una operación matemática básica, la cual
+      consiste en reunir las unidades de dos o más números cada una de ellas por
+      separado, cuyo resultado será otro número formado por tantas unidades como
+      tengan sus componentes. Aprender a sumar es una de las primeras lecciones
+      que los niños reciben en el cole, por lo que conocer las sumas y la forma
+      de calcular las sumas es fundamental para apoyar a los pequeños en su
+      aprendizaje. Esto es importante porque posteriormente el nivel seguirá
+      subiendo con la llegada de la resta, la multiplicación y la división en
+      las lecciones de matemáticas.
+      <br />
+      <br />
+      En la adición como también es conocida la suma, el signo que se utiliza es
+      una cruz (+) que llamamos más, las cantidades que sumamos se llaman
+      sumandos y el resultado se llama suma.
+      <br />
+      <br />
+      <h2>Tipos de Suma</h2>
+      Las sumas pueden tener varios niveles en función de la cantidad de cifras
+      que compongan las partes de la suma. Normalmente, las sumas en primaria
+      son más básicas, pero aún así podemos encontrar dos clases diferenciadas:
+      <li>Suma sin llevar: están compuestas por números inferiores a 10.</li>
+      <li>
+        Suma con llevada: las cifras que componen la suma están formadas por 2
+        dígitos o más, es decir que son mayores de 10.
+      </li>
+      <br />
+      <br />
+      <h2>Propiedades</h2>
+      La suma tiene cuatro propiedades. Las propiedades son conmutativa,
+      asosiativa, distributiva y elemento neutro.
+
+      <li>
+        Propiedad conmutativa: Cuando se suman dos números, el resultado es el
+        mismo independientemente del orden de los sumandos. Por ejemplo 4+2 =
+        2+4
+      </li>
+      <li>
+        Propiedad asociativa: Cuando se suman tres o más números, el resultado
+        es el mismo independientemente del orden en que se suman los sumandos.
+        Por ejemplo (2+3) + 4= 2 + (3+4)
+      </li>
+      <li>
+        Elemento neutro: La suma de cualquier número y cero es igual al número
+        original. Por ejemplo 5 + 0 = 5.
+      </li>
+
+      <li>
+        Propiedad distributiva: La suma de dos números multiplicada por un
+        tércer número es igual a la suma de cada sumando multiplicado por el
+        tercer número. Por ejemplo 4 * (6+3) = 4*6 + 4*3
+      </li>
+      <br />
+      <br />
+      <h3>Ejemplo:</h3>
+      <img src="/assets/Suma.jpg" alt="" srcset="" />
+      <br />
+      <br />
+      <h3>Ejercicio</h3>
+      <h4>2+5 =</h4>
+
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <input
+            matInput
+            type="number"
+            [(ngModel)]="value"
+            name="value"
+            placeholder="Resultado"
+          />
+        </mat-form-field>
+      </form>
+
+      <button id="add" mat-raised-button color="warn" (click)="validar()">
+        Evaluar
+      </button>
+    </div>
+  </mat-card-content>
+</mat-card>

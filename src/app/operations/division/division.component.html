@@ -1,0 +1,89 @@
+<br />
+<mat-card class="card">
+  <mat-card-title class="title">División</mat-card-title>
+  <mat-card-subtitle>Fracción</mat-card-subtitle>
+  <br />
+  <mat-card-content>
+    <div class="description">
+      La división es una de las operaciones básicas de la aritmética que
+      consiste en separar en partes iguales un total. En matemáticas, el símbolo
+      de la división es el signo (÷), dos puntos (:) o barra oblicua (/). El
+      signo para la división se ubica entre el dividendo y el divisor, siendo,
+      el dividendo la parte total y el divisor el número de partes iguales que
+      se quiere separar.
+      <br />
+      <br />
+      La división es la operación contraria a la multiplicación. Por lo tanto,
+      para saber si una división es correcta se multiplica el resultado, también
+      llamado cociente, por el divisor. Por ejemplo, 10 ÷ 5 = 2, por lo tanto 2
+      multiplicado por 5 da como resultado 10 unidades.
+      <br />
+      <br />
+      <h2>Tipos de División</h2>
+      Dependiendo de su coeficiente o residuo las divisiones pueden ser:
+
+      <li>
+        La división exacta: una división exacta lleva este nombre cuando al
+        resolver la división, el resultado del resto es igual a cero. En el caso
+        de dividir 2/2= 1 pero su resto es igual a 0. Este es un ejemplo con un
+        solo número en el divisor.
+      </li>
+      <li>
+        La división inexacta: en las divisiones inexactas la cifra del resto
+        cuenta con un valor diferente a cero, es importante destacar que el
+        resto debe ser menor que el divisor, por lo tanto es imposible poder
+        seguir realizando la división. En caso que se esté realizando una
+        división inexacta el dividendo siempre será igual al divisor
+        multiplicado por el cociente y sumado por el resto.
+      </li>
+      <br />
+      <br />
+      <h2>Propiedades</h2>
+      La división tiene varias propiedades. Las cuales son de suma importancia
+      al momento de utilizarla.
+
+      <li>
+        Propiedad fundamental de la división: si la división es exacta el
+        dividendo es igual al divisor por el cociente. En cambio, si la división
+        es inexacta el dividendo será igual al divisor por el cociente más el
+        resto.
+      </li>
+      <li>
+        Operación no interna: La división no es una operación interna en el
+        conjunto de los números enteros. La división de dos números naturales no
+        tiene que dar otro número natural. Es decir, al dividir dos números
+        enteros puede ser que no resulte otro número entero.
+      </li>
+
+      <li>Elemento neutro: el 1 es el elemento neutro de la división.</li>
+      <li>
+        El cero: el cero dividido entre cualquier número da cero. Además, no se
+        puede dividir ningún número entre cero
+      </li>
+      <br />
+      <br />
+      <h3>Ejemplo:</h3>
+      <img src="/assets/Division.jpg" alt="" srcset="" />
+      <br />
+      <br />
+      <h3>Ejercicio</h3>
+      <h4>20/5 =</h4>
+
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <input
+            matInput
+            type="number"
+            [(ngModel)]="value"
+            name="value"
+            placeholder="Resultado"
+          />
+        </mat-form-field>
+      </form>
+
+      <button id="add" mat-raised-button color="warn" (click)="validar()">
+        Evaluar
+      </button>
+    </div>
+  </mat-card-content>
+</mat-card>

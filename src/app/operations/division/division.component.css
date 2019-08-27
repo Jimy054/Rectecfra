@@ -1,0 +1,41 @@
+.card {
+  margin-left: 20px;
+  width: 95%;
+  height: auto;
+}
+
+.button {
+  margin-left: 20px;
+  float: right;
+}
+
+img {
+  margin-left: 60px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.description {
+  margin-left: 30px;
+}
+
+h3 {
+  margin-left: 30px;
+}
+
+h4 {
+  margin-left: 50px;
+}
+
+form {
+  margin-left: 60px;
+}
+button {
+  margin-left: 60px;
+}

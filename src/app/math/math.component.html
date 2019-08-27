@@ -1,0 +1,107 @@
+<br />
+<mat-card class="card">
+  <mat-card-title class="title"> Matemática</mat-card-title>
+  <br />
+  <mat-grid-list cols="3" rowHeight="300px">
+    <mat-card-content>
+      <div>
+        <mat-card class="card1">
+          <mat-card-header>
+            <div mat-card-avatar class="header-image-plus"></div>
+            <mat-card-title>Suma</mat-card-title>
+          </mat-card-header>
+          <img
+            mat-card-image
+            class="example"
+            src="/assets/examplePlus.jpg"
+            alt="Photo of a Plus"
+          />
+          <mat-card-content>
+            <p>
+              La suma forma parte de una de las 4 operación básicas, consiste de
+              dos o mas elementos para obtener un resultado total.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-button [routerLink]="['suma']">
+              Ver mas
+            </a></mat-card-actions
+          >
+        </mat-card>
+
+        <mat-card class="card1">
+          <mat-card-header>
+            <div mat-card-avatar class="header-image-less"></div>
+            <mat-card-title>Resta</mat-card-title>
+          </mat-card-header>
+          <img
+            mat-card-image
+            class="example"
+            src="/assets/exampleLess.jpg"
+            alt="Photo of a Plus"
+          />
+          <mat-card-content>
+            <p>
+              La resta es considera la segunda operación mas importante de las 4
+              operaciones básicas, consiste en recortar o reducir algo de un
+              conjunto de elementos.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-button [routerLink]="['resta']">
+              Ver mas
+            </a>
+          </mat-card-actions>
+        </mat-card>
+
+        <mat-card class="card1">
+          <mat-card-header>
+            <div mat-card-avatar class="header-image-per"></div>
+            <mat-card-title>Multiplicación</mat-card-title>
+          </mat-card-header>
+          <img
+            mat-card-image
+            class="example"
+            src="/assets/examplePer.png"
+            alt="Photo of a Plus"
+          />
+          <mat-card-content>
+            <p>
+              Es un procedimiento que consiste en doblar o repetir varias veces
+              la cantidad o número de una cosa
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-button [routerLink]="['multiplicacion']">
+              Ver mas
+            </a>
+          </mat-card-actions>
+        </mat-card>
+
+        <mat-card class="card1">
+          <mat-card-header>
+            <div mat-card-avatar class="header-image-divide"></div>
+            <mat-card-title>Division</mat-card-title>
+          </mat-card-header>
+          <img
+            mat-card-image
+            class="example"
+            src="/assets/exampleDivide.png"
+            alt="Photo of a Plus"
+          />
+          <mat-card-content>
+            <p>
+              Es una de las operaciones básicas de la aritmética que consiste en
+              separar en partes iguales un total.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <a mat-button [routerLink]="['division']">
+              Ver mas
+            </a></mat-card-actions
+          >
+        </mat-card>
+      </div>
+    </mat-card-content>
+  </mat-grid-list>
+</mat-card>

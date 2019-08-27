@@ -1,0 +1,30 @@
+.card {
+  margin-left: 20px;
+  width: 95%;
+  height: auto;
+}
+
+.button {
+  margin-left: 20px;
+  float: right;
+}
+
+img {
+  float: right;
+}
+
+i {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.description {
+  margin-left: 30px;
+}
+
+h3 {
+  margin-left: 30px;
+}

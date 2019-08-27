@@ -1,0 +1,68 @@
+<br />
+<mat-card class="card">
+  <mat-card-title class="title">Multiplicación</mat-card-title>
+  <mat-card-subtitle>Producto</mat-card-subtitle>
+  <br />
+  <mat-card-content>
+    <div class="description">
+      s una operación aritmética que se indica con el signo × (se lee por).
+      Multiplicar dos números consiste en sumar reiteradamente (es decir, una y
+      otra vez) el primero tantas veces como indica el segundo. Así, 4 × 3 es lo
+      mismo que sumar 3 veces 4 (4 + 4 + 4). Su signo se puede presentar por *,
+      (), x, .
+      <br />
+      <br />
+      Sólo se pueden multiplicar números concretos homogéneos entre si es decir
+      que se refieren a unidades de la misma espiece (euros y euros, manzanas y
+      manzanas...). No se pueden multiplicar los números concretos heterogéneos
+      es decir que se refieren a espieces distintas (manzanas y peras, euros y
+      dólares...)
+      <br />
+      <br />
+      <h2>Propiedades</h2>
+      Como las otras operaciones la multiplicación tambien tiene con propiedades
+      especificos
+      <li>
+        Conmutativa: el orden de los factores no altera el producto.
+      </li>
+      <li>
+        Asociativa: en una multiplicación de 3 o más factores se puede empezar
+        multiplicando los 2 primeros y el resultado multiplicarlo por el tercero
+      </li>
+      <li>
+        Elemento neutro: la multiplicación tiene un elemento neutro que es el 1.
+        Si se multiplica cualquier número por 1 el resultado es el mismo número:
+      </li>
+
+      <li>
+        Propiedad distributiva: La suma de dos números multiplicada por un
+        tércer número es igual a la suma de cada sumando multiplicado por el
+        tercer número. Por ejemplo 4 * (6+3) = 4*6 + 4*3
+      </li>
+      <br />
+      <br />
+      <h3>Ejemplo:</h3>
+      <img src="/assets/multiplicacion.png" alt="" srcset="" />
+      <br />
+      <br />
+      <h3>Ejercicio</h3>
+      <h4>10*5 =</h4>
+
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <input
+            matInput
+            type="number"
+            [(ngModel)]="value"
+            name="value"
+            placeholder="Resultado"
+          />
+        </mat-form-field>
+      </form>
+
+      <button id="add" mat-raised-button color="warn" (click)="validar()">
+        Evaluar
+      </button>
+    </div>
+  </mat-card-content>
+</mat-card>
